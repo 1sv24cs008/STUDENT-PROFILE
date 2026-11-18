@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 st.title("🎓 Student Profile Application")
-st.write("Developed by Student Name")
+st.write("Developed by AMEER KHAN")
 
 st.info("Fill in your details and click View My Profile.")
 
@@ -25,7 +25,7 @@ with st.form("student_profile_form"):
 
     department = st.selectbox(
         "Department",
-        ["CSE", "ISE", "ECE", "EEE", "ME", "Civil", "Other"]
+        ["CSE", "ISE", "AIDS","AIML","CX","ECE", "EEE", "ME", "Civil", "Other"]
     )
 
     year = st.radio(
